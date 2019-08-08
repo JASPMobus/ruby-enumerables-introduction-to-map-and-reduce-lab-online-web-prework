@@ -7,7 +7,7 @@ def map_to_negativize(array)
   array
 end
 
-def map_to_no_changed(array)
+def map_to_no_change(array)
   array
 end
 
@@ -19,3 +19,4 @@ def map_to_double(array)
   array
 end
 
+def 
