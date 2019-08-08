@@ -28,10 +28,20 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, start = 0)
-  ret = 0
+  ret = start
   
   array.length.times do |i|
     ret += array[i]
+  end
+  
+  ret
+end
+
+def reduce_to_all_true(array)
+  ret = true
+  
+  array.length.times do |i|
+    ret = ret && !!array[i]
   end
   
   ret
