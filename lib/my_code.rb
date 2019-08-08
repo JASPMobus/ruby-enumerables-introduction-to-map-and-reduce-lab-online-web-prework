@@ -6,3 +6,16 @@ def map_to_negativize(array)
   
   array
 end
+
+def map_to_no_changed(array)
+  array
+end
+
+def map_to_double(array)
+  array.length.times do |i|
+    array[i] *= 2
+  end
+  
+  array
+end
+
