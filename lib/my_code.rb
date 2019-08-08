@@ -46,3 +46,13 @@ def reduce_to_all_true(array)
   
   ret
 end
+
+def reduce_to_any_true(array)
+  ret = false
+  
+  array.length.times do |i|
+    ret = ret || !!array[i]
+  end
+  
+  ret
+end
