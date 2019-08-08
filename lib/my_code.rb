@@ -19,4 +19,11 @@ def map_to_double(array)
   array
 end
 
-def 
+def map_to_square(array)
+  array.length.times do |i|
+    array[i] *= array[i]
+  end
+  
+  array
+end
+
